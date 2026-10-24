@@ -94,7 +94,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(13, 135, 211);
+    background-image: url(../IMG/img/inicio.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
