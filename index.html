@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidanta</title>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/themes/splide-sea-green.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="IMG/img/vv-logo.png" alt="LOGO" class="logo-img"></a>
+            </div>
+            <div>
+                <ul class="header-list">
+                    <li class="header-select"><a href="#">¿POR QUÉ VIDA VACATIONS?</a></li>
+                    <li class="header-select"><a href="#">DESTINOS</a></li>
+                    <li class="header-select"><a href="#">HOTELES RESORT</a></li>
+                    <li class="header-select"><a href="#">VIDANTAWORLD'S ELEGANT</a></li>
+                    <li class="header-select"><a href="#">ENTRETENIMIENTO</a></li>
+                    <li class="header-select"><a href="#">CONTÁCTENOS</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="idiomas">
+                    <li class="idiomas-selec"><a href="#">ES</a></li> |
+                    <li class="idiomas-selec"><a href="#">EN</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="principal">
+                <h1>EXPLORE EL <span>LUJO</span> CON VIDA VACATIONS</h1>
+            </div>
+        </section>
+        <section>
+            <div class="bienvenida">
+                <h1>LA FORMA <span>PERSONALIZADA</span> DE VIAJAR.</h1>
+                <p>Vida Vidanta es un exclusivo club vacacional de lujo, que ofrece los mejores y más hermosos destinos, experiencias inigualables, entretenimiento de clase mundial, suntuosa relajación y el mejor servicio, todo creado para satisfacer todas y cada una de sus expectativas. ¡Bienvenido a Vida Vacations!</p>
+                <div>
+                    <a href="#"><button class="conozca-btn">CONOZCA MÁS</button></a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="lujo-mar">
+                <div class="titulo-apartados">
+                    <h1>LUJO EN EL <span>MAR</span></h1>
+                </div>
+                <div>
+                    <span class="fondo-lujo">
+                        <div class="logo-lujo">
+                            <img src="IMG/img/elegant-logo.png" alt="Elegant logo">
+                            <a href="#"><button class="conozca-btn">CONOZCA MÁS</button></a>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="destinos">
+                <div class="titulo-apartados">
+                    <h1>DESTINOS</h1>
+                    <p>Los clientes de Vida Vacation obtienen acceso a los destinos de Vidanta, una serie de extraordinarios resorts de playa que ofrecen lo mejor en gastronomía, entretenimiento, belleza natural y relajación.</p>
+                </div>
+            </div>
+        </section>
+        <section id="galeria" class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide card"><a href=""><img src="IMG/img/destinos/acapulco.jpg" alt="acapulco"></a><span class="card-name">Acapulco</span></li>
+                    <li class="splide__slide card"><a href=""><img src="IMG/img/destinos/east-cape.webp" alt="East Cape"></a><span class="card-name">East Cape</span></li>
+                    <li class="splide__slide card"><a href=""><img src="IMG/img/destinos/los-cabos.jpg" alt="Los Cabos"></a><span class="card-name">Los Cabos</span></li>
+                    <li class="splide__slide card"><a href=""><img src="IMG/img/destinos/mazatlan.jpg" alt="Mazatlan"></a><span class="card-name">Mazatlan</span></li>
+                    <li class="splide__slide card"><a href=""><img src="IMG/img/destinos/nuevo-nayarit-vallarta.jpg" alt="Nuevo Nayarit"></a><span class="card-name">Nuevo Nayarit</span></li>
+                    <li class="splide__slide card"><a href=""><img src="IMG/img/destinos/puerto-penasco.jpg" alt="Puerto Peñasco"></a><span class="card-name">Puerto Peñasco</span></li>
+                    <li class="splide__slide card"><a href=""><img src="IMG/img/destinos/puerto-vallarta.jpg" alt="Puerto Vallarta"></a><span class="card-name">Puerto Vallarta</span></li>
+                    <li class="splide__slide card"><a href=""><img src="IMG/img/destinos/riviera-maya.jpg" alt="Riviera Maya"></a><span class="card-name">Riviera Maya</span></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="resorts">
+                <div class="titulo-apartados">
+                    <h1>HOTELES <span>RESORT</span></h1>
+                    <p>Usted y su familia merecen unas vacaciones que reflejen su estilo de vida.</p>
+                    <p>Por ello, contamos con una selección de hoteles resort, cada uno con experiencias innolvidables.</p>
+                </div>
+            </div>
+        </section>
+        <section id="galeria-resort" class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide card" id="card-resort"><a href=""><img src="IMG/img/hoteles/grand-luxxe.jpg" alt="acapulco"></a><span class="card-name">Grand Delux</span></li>
+                    <li class="splide__slide card" id="card-resort"><a href=""><img src="IMG/img/hoteles/mayan-palace.jpg" alt=""></a><span class="card-name">Mayan Palace</span></li>
+                    <li class="splide__slide card" id="card-resort"><a href=""><img src="IMG/img/hoteles/sea-garden.jpg" alt=""></a><span class="card-name">Sea Garden</span></li>
+                    <li class="splide__slide card" id="card-resort"><a href=""><img src="IMG/img/hoteles/the-bliss.jpg" alt=""></a><span class="card-name">The Bliss</span></li>
+                    <li class="splide__slide card" id="card-resort"><a href=""><img src="IMG/img/hoteles/the-estates.jpg" alt=""></a><span class="card-name">The Estates</span></li>
+                    <li class="splide__slide card" id="card-resort"><a href=""><img src="IMG/img/hoteles/the-grand-bliss.jpg" alt=""></a><span class="card-name">The Grand Bliss</span></li>
+                    <li class="splide__slide card" id="card-resort"><a href=""><img src="IMG/img/hoteles/the-grand-mayan.jpg" alt=""></a><span class="card-name">The Grand Mayan</span></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="experiencias">
+                <span class="experiencias-fondo">
+                    <div class="titulo-experiencias">
+                        <h1>EXPERIENCIAS <span>EXTRAORDINARIAS</span></h1>
+                        <a href="#"><button class="conozca-btn">CONOZCA MÁS</button></a>
+                </span>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <footer>
+        <span class="fondo-footer"></span>
+
+        <div class="footer">
+            <div class="footer-info">
+                <a href="#">Pagos</a>
+                <a href="#">Contáctenos</a>
+                <a href="#">Conozca Vida Vacations</a>
+                <a href="#">Experiencias Extraordinarias</a>
+            </div>
+            <div class="footer-info">
+                <a href="#">Aviso de Privacidad</a>
+                <a href="#">Prevención de Fraudes</a>
+                <a href="#">Sorteos y Promociones</a>
+            </div>
+
+            <div>
+                <img src="/IMG/img/vv-logo-dorado.png" alt="logo">
+            </div>
+
+            <div class="footer-info">
+                <a href="#">México: 800-366-6600</a>
+                <a href="#">E.U.A y Canadá: 1-800-292-9446</a>
+                <a href="#">Resto del Mundo: +52 (322) 176-0660</a>
+                <a href="#"></a>
+            </div>
+            <div class="footer-info" id="redes">
+                <a href="#"><i class="fa-brands fa-facebook"> Facebook</i></a>
+                <a href="#"><i class="fa-brands fa-instagram"> Instagram</i></a>
+                <a href="#"><i class="fa-brands fa-youtube"> Youtube</i></a>
+            </div>
+        </div>
+        <div class="info-end">
+            <p>© 2024 Vida Vacations | Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

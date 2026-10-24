@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Candal&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Candal&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Nunito;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/*HEADER*/
+
+header {
+    position: fixed;
+    padding: 12px 48px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-select{
+    font-size: 14px;
+}
+
+.header-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 80px;
+    text-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.header-list a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.logo-img{
+    width: 50px;
+    height: auto;
+}
+
+.idiomas{
+    font-family: Nunito;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+.idiomas-selec a{
+    text-decoration: none;
+    font-family: Nunito;
+    font-weight: bold;
+    color: #fff;
+}
+
+.scrolled{
+    background-color: #fff;
+    .header-list a{
+        color: #848484;
+    }
+    .idiomas{
+        color: #848484;
+    }
+    .idiomas a{
+        color: #848484;
+    }
+}
+
+/*PRINCIPAL*/
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/IMG/img/inicio.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.principal h1{
+    font-family: Libre Bodoni;
+    color: #fff;
+    font-size: 80px;
+    width: 900px;
+    text-align: center;
+}
+
+.principal h1 span{
+    font-family: Libre Bodoni;
+    font-style: italic;
+}
+
+/*BIENVENIDO*/
+
+.bienvenida{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/IMG/img/bienvenido.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.bienvenida h1{
+    font-family: Libre Bodoni;
+    color: #205375;
+    font-size: 30px;
+    width: 300px;
+    text-align: center;
+}
+
+.bienvenida h1 span{
+    font-family: Libre Bodoni;
+    font-style: italic;
+}
+
+.bienvenida p{
+    color: #fff;
+    font-size: 18px;
+    width: 750px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.conozca-btn{
+    font-family: Nunito;
+    font-weight: bold;
+    background-color: #66AAA0;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    padding: 5px;
+    width: 150px;
+}
+
+/* LUJO EN EL MAR*/
+
+.titulo-apartados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.titulo-apartados h1{
+    font-family: Libre Bodoni;
+    font-size: 40px;
+    color: #205375;
+}
+
+.titulo-apartados p{
+    color: #848484;
+}
+
+.titulo-apartados h1 span{
+    font-family: Libre Bodoni;
+    font-style: italic;
+}
+
+.fondo-lujo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/IMG/img/elegant.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo-lujo{
+    scale: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 70%;
+    margin-bottom: 15%;
+    gap: 50px;
+}
+
+/*DESTINOS*/
+
+.destinos{
+    display: flex;
+    flex-direction: column;
+    margin-top: -180px;
+}
+
+.destinos h1{
+    margin-bottom: 30px;
+}
+
+.destinos p{
+    color: #848484;
+}
+
+#galeria-resort{
+    padding: 50px 100px;
+}
+
+#galeria-2{
+    padding: 50px 100px;
+}
+
+#galeria{
+    padding: 50px 200px;
+}
+
+.card{
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+}
+
+.card img{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.card-name{
+    font-size: 18px;
+    position: relative;
+    font-family: Nunito;
+    color: #fff;
+    background: rgba(114, 114, 114, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgba(209, 213, 219, 0.3);
+    width: 100%;
+    height: 13%;
+    border-radius: 0 0 10px 10px;
+    top: -10px;
+    margin-top: -28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*EXPERIENCIAS*/
+
+.experiencias-fondo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/IMG/img/experiencias.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+}
+
+.titulo-experiencias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 40px;
+    margin-right: -70%;
+    margin-bottom: 10%;
+    gap: 50px;
+}
+
+.titulo-experiencias h1{
+    font-family: Libre Bodoni;
+    font-size: 40px;
+    color: #fff;
+}
+
+.titulo-experiencias h1 span{
+    font-family: Libre Bodoni;
+    font-style: italic;
+}
+
+#card-2{
+    width: 100%;
+    height: 200px;
+}
+
+/*FOOTER*/
+
+.fondo-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/IMG/img/final.gif);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    margin-top: -185px;
+    background-color: #002038;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.footer-info{
+    font-size: 15px;
+    list-style: none;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-info a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#redes{
+    font-size: 12px;
+}
+
+.info-end{
+    font-size: 12px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #35858B;
+    color: #fff;
+}
+
+.footer img{
+    width: 110px;
+}
