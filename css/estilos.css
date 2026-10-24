@@ -93,7 +93,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/IMG/img/inicio.gif);
+    background-image: url(../IMG/img/inicio.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
